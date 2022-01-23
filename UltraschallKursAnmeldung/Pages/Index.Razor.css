@@ -1,0 +1,69 @@
+﻿body {
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.header {
+    height: 10%;
+    width: 100vw;
+    text-align: center;
+    padding-top: 20px;
+    background-color: aliceblue;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: aliceblue;
+}
+
+.btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 40%;
+    top: 50px;
+    text-decoration: none;
+    color: dodgerblue;
+    background-color: aliceblue;
+    border: dodgerblue solid 5px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    width: 15rem;
+    padding: 10px;
+    transition: all 1s ease 0s;
+}
+
+    .btn:hover {
+        box-shadow: 0px 0px 50px dodgerblue;
+        border-radius: 50px;
+        transform: scale(1.2);
+        transition: all 0.1s ease 0s;
+    }
+
+.split {
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    overflow: hidden;
+}
+
+    .split.left {
+        left: 0;
+        background: url("https://www.extremetech.com/wp-content/uploads/2020/06/PS5-Sony.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .split.right {
+        right: 0;
+        background: url("https://www.adoww.com/wp-content/uploads/2020/08/X-BOX-SERIES.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }

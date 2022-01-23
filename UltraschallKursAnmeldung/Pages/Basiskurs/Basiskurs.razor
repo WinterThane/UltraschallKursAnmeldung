@@ -1,0 +1,21 @@
+﻿@page "/Basiskurs"
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+<header>header pic</header>
+
+<div class="col-12 title">
+    <h3><strong>@Configuration["Basiskurs:title"] @Configuration["Basiskurs:year"]</strong></h3>
+</div>
+
+<h5>Der Kurs findet @Configuration["Basiskurs:title"] @Configuration["Basiskurs:year"] statt.</h5>
+<p>program documents</p>
+<p><small>Im Kursgeld inbegriffen sind: <strong>Znüni, Lunch und Zvieri.</strong></small></p>
+<br />
+<p>Anmeldung</p>
+
+<footer>footer info</footer>
+
+@code {
+
+}
