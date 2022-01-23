@@ -6,13 +6,42 @@
 
 <div class="col-12 title">
     <h3><strong>@Configuration["Basiskurs:title"] @Configuration["Basiskurs:year"]</strong></h3>
-</div>
+    <h5>Der Kurs findet @Configuration["Basiskurs:title"] @Configuration["Basiskurs:year"] statt.</h5>
+    <p>program documents</p>
+    <p><small>Im Kursgeld inbegriffen sind: <strong>Znüni, Lunch und Zvieri.</strong></small></p>
 
-<h5>Der Kurs findet @Configuration["Basiskurs:title"] @Configuration["Basiskurs:year"] statt.</h5>
-<p>program documents</p>
-<p><small>Im Kursgeld inbegriffen sind: <strong>Znüni, Lunch und Zvieri.</strong></small></p>
-<br />
-<p>Anmeldung</p>
+    <div class="anmeldung">Anmeldung</div>
+    <div class="col-8">
+        <fieldset class="fieldset-box">
+            <legend class="w-auto legend-box">Titel</legend>
+            <div class="row">
+                <div class="col-8">
+                    <label for="IsInWeiterbildung">Ärtzin/Artz in Weiterbildung:</label>
+                    <input type="radio" name="weiterBildung" value="0" checked />Nein
+                    <input type="radio" name="weiterBildung" value="1" />Ja
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="col-8">
+        <fieldset class="fieldset-box">
+            <legend class="w-auto legend-box">Privat</legend>
+            <div class="form-group">
+                <label for="aaa">aaa</label>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="col-8">
+        <fieldset class="fieldset-box">
+            <legend class="w-auto legend-box">Geschäft</legend>
+            <div class="form-group">
+                <label for="aaa">aaa</label>
+            </div>
+        </fieldset>
+    </div>
+</div>
 
 <footer>footer info</footer>
 
